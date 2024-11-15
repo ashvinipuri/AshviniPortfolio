@@ -1,0 +1,117 @@
+body {
+  border: 1cap solid;
+  background-color: whitesmoke;
+  margin: 30px;
+  padding: 5px;
+}
+header {
+  background-color: beige;
+}
+
+.col-xl-10 a {
+  color: black;
+  font-size: x-large;
+}
+/* Header end */
+
+.img-fluid {
+  height: 150px;
+  width: 220px;
+}
+
+#container {
+  margin: 60px;
+}
+/* Education End */
+
+.about {
+  border: 2px solid;
+  border-radius: 15px;
+  margin: 50px;
+}
+.p1 {
+  text-align: center !important;
+  padding-top: 10%;
+  padding-right: 10px;
+  font-size: large;
+}
+
+.btn-outline-info {
+  margin: 60px auto;
+}
+
+/* Info end */
+
+col-xl-3 img {
+  border-radius: 50%;
+}
+#carouselExampleAutoplaying {
+  border: solid;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 50px;
+}
+
+
+#carouselExampleAutoplaying img {
+  height: 150px;
+  width: 100px;
+}
+
+/* Skillset end */
+
+.col-xl-4 {
+  border: 1px solid;
+  border-radius: 20px;
+}
+
+/* contact */
+
+footer {
+  margin: 20px;
+  border: solid;
+  height: 80px;
+  width: auto;
+  border-radius: 20px;
+  background-color: beige;
+}
+
+.row1 {
+  padding-top: 10px;
+}
+/* footer end */
+
+
+/* Social media container fixes */
+.socialcontainer {
+  display: flex;
+  gap: 10px;
+  justify-content: center; /* Centering the icons */
+  flex-wrap: wrap; /* Allow the icons to wrap in smaller screen sizes */
+}
+
+/* Social media image fixes */
+.socialcontainer a img {
+  width: 30px; 
+  height: 30px; 
+  transition: transform 0.2s;
+  max-width: 100%; 
+}
+
+.socialcontainer a img:hover {
+  transform: scale(1.4);
+}
+
+/* media view */
+@media (max-width: 576px) {
+  .socialcontainer a img {
+    width: 25px; 
+    height: 25px; 
+    transform: scale(1.2); 
+  }
+
+  .socialcontainer h5 {
+    margin-left: 0; 
+  }
+}
+
